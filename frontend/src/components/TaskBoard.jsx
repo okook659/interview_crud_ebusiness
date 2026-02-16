@@ -22,7 +22,7 @@ export default function TaskBoard() {
   const changeStatus = async (task) => {
     const nextStatus =
       task.status === "todo"
-        ? "in_progress"
+        ? "in-progress"
         : task.status === "in-progress"
         ? "done"
         : "todo";

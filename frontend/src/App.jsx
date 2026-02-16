@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-100 p-6">
       <div className="flex justify-between mb-4">
-        <h1 className="text-3xl font-bold">Task Manager</h1>
+        <h1 className="text-3xl font-bold">TaskFlow</h1>
 
         <button
           onClick={() => setView(view === "kanban" ? "list" : "kanban")}
